@@ -49,6 +49,12 @@ Phase 1 - MVP（可控发布系统）
 
 ### 2026-04-29
 
+变更：新增 `apps/web/app/page.tsx`，让首页渲染 `AdminConsole` 管理后台入口  
+原因：管理后台 UI 需要明确的 Next.js 首页入口，便于后续扩展审核与发布工作流  
+影响：web app / management UI
+
+### 2026-04-29
+
 变更：完成 TypeScript monorepo 初始化，建立 `apps/`、`packages/`、`workers/`、`docs/`、`reference/` 目录  
 原因：让项目结构与目标架构一致，便于后续扩展 API、Worker、管理后台  
 影响：repository structure / build setup / docs
